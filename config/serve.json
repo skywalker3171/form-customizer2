@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://skywalker57.sharepoint.com/sites/Contosoportal/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "f728f95e-c228-49a4-ba3a-119bb102828a",
+        "PageType": 8,
+        "RootFolder": "/sites/Contosoportal/Lists/Testlist",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_NewForm": {
+      "pageUrl": "https://skywalker57.sharepoint.com/sites/Contosoportal/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "f728f95e-c228-49a4-ba3a-119bb102828a",
+        "PageType": 8,
+        "RootFolder": "/sites/Contosoportal/Lists/Testlist",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_EditForm": {
+      "pageUrl": "https://skywalker57.sharepoint.com/sites/Contosoportal/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "f728f95e-c228-49a4-ba3a-119bb102828a",
+        "PageType": 6,
+        "RootFolder": "/sites/Contosoportal/Lists/Testlist",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_ViewForm": {
+      "pageUrl": "https://skywalker57.sharepoint.com//sites/Contosoportal_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "f728f95e-c228-49a4-ba3a-119bb102828a",
+        "PageType": 4,
+        "RootFolder": "/sites/Contosoportal/Lists/Testlist",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}
