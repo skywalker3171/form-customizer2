@@ -13,6 +13,7 @@
   },
   "externals": {},
   "localizedResources": {
-    "HelloWorldFormCustomizerStrings": "lib/extensions/helloWorld/loc/{locale}.js"
+    "HelloWorldFormCustomizerStrings": "lib/extensions/helloWorld/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
   }
 }
